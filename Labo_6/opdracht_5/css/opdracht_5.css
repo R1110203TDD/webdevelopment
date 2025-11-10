@@ -1,0 +1,25 @@
+a
+{
+    display: inline-block;
+    padding-left: 24px; /* ruimte voor het icoon */
+    background-image: url('../images/download.png'); /* vervang met jouw icoon */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px; /* pas aan op basis van je icoon */
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+body
+{
+    background-color: black;
+    color: white;
+
+}
+li::before
+{
+    content: "💘";
+
+}
+ul{ list-style-type: none;
+    background-color: darkblue;}
