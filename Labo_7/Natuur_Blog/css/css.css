@@ -1,0 +1,44 @@
+body
+{
+    width: 95%;
+    margin:auto;
+}
+#header
+{
+    background-image: url(../images/header.jpg);
+    color: white;
+    height: 5em;
+    width: 100%;
+    font-family:Arial,sans-serif;
+    font-size: 2em;
+}
+header, nav
+{
+    font-weight: bold;
+
+}
+.tussentitels
+{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+nav
+{
+    background-color: #4A4A4A;
+
+
+    font-family: arial, sans-serif, sans-serif;
+
+
+}
+.linkenNav
+{
+    color: lightgreen;
+    text-decoration: none;
+}
+article
+{
+    background-color: lightgray;
+    padding: 2em 0.5em 0.5em 0.5em;
+    margin: 0.5em;
+}
