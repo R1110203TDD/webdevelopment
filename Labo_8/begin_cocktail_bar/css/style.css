@@ -1,0 +1,90 @@
+body {
+    display: inline-block;
+    text-align: center;
+    width: 95%;
+    font-family: Verdana, helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+margin: auto;
+}
+
+h1, h2 {
+    color: rgb(0, 126, 126)
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+aside h1 {
+    color: gray;
+}
+
+aside h2 {
+    color: red;
+}
+
+#elixirs {
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-position: top ;
+
+
+    float: right;
+    width: 25%;
+    border: #0070A8 1px solid;
+
+}
+
+#content {
+    width: 70%;
+    text-align: left;
+
+
+}
+
+footer {
+    font-size: 16px;
+    clear: both;
+}
+
+a:hover {
+    color: brown;
+}
+
+
+
+.artist {
+    font-weight: bold
+}
+
+.cd {
+    font-style: italic
+}
+
+#guarantee {
+
+    padding: 20px;
+    overflow: hidden;
+    margin: 30px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 1px white dotted;
+
+}
+#guarantee::before
+{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+    background: url("Labo_8/begin_cocktail_bar/images/background.gif") no-repeat left ;
+
+
+}
+p img{ display: inline; margin-left: auto; margin-right: auto;}
