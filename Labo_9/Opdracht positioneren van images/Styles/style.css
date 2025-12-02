@@ -1,0 +1,22 @@
+
+
+ article:nth-child(even) p img
+{
+    float:right;
+    margin:10px;
+
+}
+ article:nth-child(odd) p img
+{
+    float:left;
+    margin:10px;
+}
+article
+{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 2px black solid;
+    height: 300px;
+    background-color: #0070A8;
+
+}
