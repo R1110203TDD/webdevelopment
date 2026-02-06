@@ -1,0 +1,89 @@
+body
+{
+    text-align: center;
+
+}
+header main footer aside nav
+{
+    padding-bottom: 20px;
+
+}
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+}
+
+@media screen and (min-width: 800px)
+{
+    div
+    {
+        display:grid;
+        grid-template-columns:1fr 2fr 16fr 2fr 1fr;
+        grid-template-rows: 2fr 20fr 2fr;
+
+
+
+    }
+    header
+    {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+
+    }
+    main
+    {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    aside
+    {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+
+}
