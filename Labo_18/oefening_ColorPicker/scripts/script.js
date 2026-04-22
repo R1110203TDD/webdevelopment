@@ -1,4 +1,4 @@
-const global = {currentColor: "rgb(128, 128, 128)"};
+     const global = {currentColor: "rgb(128, 128, 128)"};
 const colors = ['red', 'green', 'blue'];
 const updateSliders = (r, g, b) => {
     const values = [r, g, b];
